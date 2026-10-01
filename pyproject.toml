@@ -86,15 +86,15 @@ docs = [
     "myst-parser",
 ]
 docs-screenshots = [
-    "altair==5.5.0",
+    "altair==6.2.2",
     "ipython==8.16.1",
-    "ipywidgets==8.1.5",
+    "ipywidgets==8.1.9",
     "jupyterlab-geojson==3.4.0",
-    "jupyterlab-language-pack-zh-CN==4.3.post1",
-    "matplotlib==3.10.0",
+    "jupyterlab-language-pack-zh-CN==4.5.post3",
+    "matplotlib==3.10.9",
     "nbconvert>=7.0.0",
-    "pandas==2.2.3",
-    "scipy==1.15.1",
+    "pandas==2.3.3",
+    "scipy==1.15.3",
     "vega_datasets==0.9.0",
 ]
 test = [
@@ -118,7 +118,7 @@ dev = [
     "coverage",
     "hatch",
     "bump2version",
-    "ruff==0.11.12",
+    "ruff==0.16.9",
 ]
 upgrade-extension = [
     "pyyaml-include<3.0",
